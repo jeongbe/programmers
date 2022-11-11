@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class 짝수는싫어요 {
-  public int[] solution(int n) {
+  public static int[] solution(int n) {
     int[] answer = {};
     int num = 0;
     if (n % 2 == 0) {
@@ -24,5 +24,6 @@ public class 짝수는싫어요 {
 
   public static void main(String[] args) {
     // 왜 자꾸 쓰레기 값이 나오지..
+    System.out.println(solution(10));
   }
 }
